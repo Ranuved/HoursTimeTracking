@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Hours</string>
+    <string name="Signintobegin">Alustamiseks logige sisse</string>
+    <string name="Welcome">Tere tulemast</string>
+    <string name="email">e-posti teel</string>
+    <string name="password">parool</string>
+    <string name="Login">Logi sisse</string>
+    <string name="Forgotpassword">Unustasid parooli</string>
+    <string name="Version">Versioon 1.0</string>
+    <string name="no_internet">Palun kontrollige oma Interneti-ühendust</string>
+    <string name="TRYAGAIN">PROOVI UUESTI</string>
+    <string name="Error">Viga</string>
+    <string name="Tryagain">Proovi uuesti</string>
+    <string name="Loginfailed">Sisselogimine ebaõnnestus</string>
+    <string name="Logout">Logi välja</string>
+    <string name="No">Ei</string>
+    <string name="Yes">Jah</string>
+    <string name="sure">Kas soovite kindlasti välja logida?</string>
+    <string name="check">Palun kontrollige oma e-posti ja parooli</string>
+    <string name="START">ALUSTA</string>
+    <string name="STOP">LÕPETA</string>
+    <string name="WeekTotal">Nädal kokku</string>
+
+    <string name="Please">Palun valige töö tüüp</string>
+    <string name="failedgetwork">Töö tüübi saamine ebaõnnestus</string>
+    <string name="Useralreadyworking">Kasutaja juba töötab</string>
+    <string name="UnabletotartworkPleasetryagainlater">Palun kontrolli oma telefoni kellaaega</string>
+    <string name="UnabletoendworkPleasetryagainlater">Töö lõpetamine ei õnnestu. Palun proovige hiljem uuesti</string>
+    <string name="permissiondenied">Luba on keelatud</string>
+    <string name="Pleaseenteremailid">Palun sisesta email</string>
+    <string name="Pleaseenterpassword">Palun sisestage parool</string>
+    <string name="Invalidemail">Email ei ole korrektne</string>
+    <string name="Chooseworktype">Valige töö tüüp</string>
+
+    <string name="M">E</string>
+    <string name="T">T</string>
+    <string name="W">K</string>
+    <string name="Th">N</string>
+    <string name="F">R</string>
+    <string name="S">L</string>
+    <string name="Sn">P</string>
+    <string name="Loading">Laeb...</string>
+    <string name="enable">Luba</string>
+    <string name="cancel">Tühista</string>
+    <string name="stym">Süsteemi aeg võib olla vale, palun lubage automaatne kuupäev ja kellaaeg ning automaatne ajavöönd</string>
+</resources>

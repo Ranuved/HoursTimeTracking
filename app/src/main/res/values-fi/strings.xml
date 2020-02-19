@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Hours</string>
+    <string name="Signintobegin">Kirjaudu sisään aloittaaksesi</string>
+    <string name="Welcome">Tervetuloa</string>
+    <string name="email">sähköposti</string>
+    <string name="password">Salasana</string>
+    <string name="Login">Kirjaudu sisään</string>
+    <string name="Forgotpassword">Unohtuiko salasana</string>
+    <string name="Version">Versio 1.0</string>
+    <string name="no_internet">Tarkista Internet-yhteys</string>
+    <string name="TRYAGAIN">YRITÄ UUDELLEEN</string>
+    <string name="Error">Virhe</string>
+    <string name="Tryagain">Yritä uudelleen</string>
+    <string name="Loginfailed">Kirjaudu sisään epäonnistui</string>
+    <string name="Logout">Kirjautua ulos</string>
+    <string name="No">Ei</string>
+    <string name="Yes">Joo</string>
+    <string name="sure">Haluatko varmasti kirjautua ulos?</string>
+    <string name="check">Tarkista sähköpostisi ja salasanasi</string>
+    <string name="START">ALKAA</string>
+    <string name="STOP">STOP</string>
+
+    <string name="WeekTotal">Viikko yhteensä</string>
+
+    <string name="Please">Valitse työn tyyppi</string>
+    <string name="failedgetwork">Työtyypin saaminen epäonnistui</string>
+    <string name="Useralreadyworking">Käyttäjä toimii jo</string>
+    <string name="UnabletotartworkPleasetryagainlater">Työtä ei voi aloittaa .. Yritä myöhemmin uudelleen</string>
+    <string name="UnabletoendworkPleasetryagainlater">Työn lopettaminen ei onnistu. Yritä myöhemmin uudelleen</string>
+    <string name="permissiondenied">lupa kielletty</string>
+    <string name="Pleaseenteremailid">Anna sähköpostiosoite</string>
+    <string name="Pleaseenterpassword">Anna salasana</string>
+    <string name="Invalidemail">Virheellinen sähköpostiosoite</string>
+    <string name="Chooseworktype">Valitse työtyyppi</string>
+    <string name="M">E</string>
+    <string name="T">T</string>
+    <string name="W">K</string>
+    <string name="Th">N</string>
+    <string name="F">R</string>
+    <string name="S">L</string>
+    <string name="Sn">P</string>
+
+</resources>

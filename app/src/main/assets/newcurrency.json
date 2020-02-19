@@ -1,0 +1,150 @@
+[
+  {
+    "id": "1",
+    "code": "IR",
+    "name": "Iran",
+    "currency_symbol": "تومان",
+    "currency_code": "IRR"
+
+  },
+  {
+    "id": "2",
+    "code": "IO",
+    "name": "British Indian Ocean Territory",
+    "currency_symbol": "$",
+    "currency_code": "USD"
+  },
+  {
+    "id": "3",
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "currency_symbol": "د.إ",
+    "currency_code": "AED"
+  },
+  {
+    "id": "4",
+    "code": "",
+    "name": "TURKEY",
+    "currency_symbol": "₺",
+    "currency_code": "TRY"
+  },
+  {
+    "id": "5",
+    "code": "IN",
+    "name": "India",
+    "currency_symbol": "₹",
+    "currency_code": "INR"
+  },
+  {
+    "id": "5",
+    "code": "AF",
+    "name": "Afghanistan",
+    "currency_symbol": "؋",
+    "currency_code": "AFN"
+  },
+  {
+    "id": "6",
+    "code": "AL",
+    "name": "Albania",
+    "currency_symbol": "L",
+    "currency_code": "ALL"
+  },
+  {
+    "id": "10",
+    "code": "AO",
+    "name": "Angola",
+    "currency_symbol": "Kz",
+    "currency_code": "AOA"
+  },
+  {
+    "id": "14",
+    "code": "AR",
+    "name": "Argentina",
+    "currency_symbol": "$",
+    "currency_code": "ARS"
+  },
+  {
+    "id": "15",
+    "code": "AM",
+    "name": "Armenia",
+    "currency_symbol": "",
+    "currency_code": "AMD"
+  },
+  {
+    "id": "16",
+    "code": "AW",
+    "name": "Aruba",
+    "currency_symbol": "ƒ",
+    "currency_code": "AWG"
+  },
+  {
+    "id": "17",
+    "code": "AU",
+    "name": "Australia",
+    "currency_symbol": "$",
+    "currency_code": "AUD"
+  },
+  {
+    "id": "19",
+    "code": "AZ",
+    "name": "Azerbaijan",
+    "currency_symbol": "₼",
+    "currency_code": "AZN"
+  },
+  {
+    "id": "45",
+    "code": "CX",
+    "name": "Christmas Island",
+    "currency_symbol": "$",
+    "currency_code": "AUD"
+  },
+  {
+    "id": "154",
+    "code": "AN",
+    "name": "Netherlands Antilles",
+    "currency_symbol": "ƒ",
+    "currency_code": "ANG"
+  },
+  {
+    "id": "20",
+    "code": "BS",
+    "name": "Bahamas The",
+    "currency_symbol": "$",
+    "currency_code": "BSD"
+  },
+  {
+    "id": "21",
+    "code": "BH",
+    "name": "Bahrain",
+    "currency_symbol": ".د.ب",
+    "currency_code": "BHD"
+  },
+  {
+    "id": "22",
+    "code": "BD",
+    "name": "Bangladesh",
+    "currency_symbol": "৳",
+    "currency_code": "BDT"
+  },
+  {
+    "id": "23",
+    "code": "BB",
+    "name": "Barbados",
+    "currency_symbol": "$",
+    "currency_code": "BBD"
+  },
+  {
+    "id": "24",
+    "code": "BY",
+    "name": "Belarus",
+    "currency_symbol": "Br",
+    "currency_code": "BYR"
+  },
+  {
+    "id": "26",
+    "code": "BZ",
+    "name": "Belize",
+    "currency_symbol": "$",
+    "currency_code": "BZD"
+  }
+]

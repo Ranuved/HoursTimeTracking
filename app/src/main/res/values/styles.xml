@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="NewDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="AppTheme.Spinner">
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item>
+    </style>
+    <style name="SpinnerItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">0dp</item>
+    </style>
+    <style name="SpinnerDropDownItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">0dp</item>
+    </style>
+    <style name="spinnerItemStyleZoftino" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:capitalize">words</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">#421a85</item>
+    </style>
+    <declare-styleable name="FontTextView">
+        <attr name="font_type" format="enum">
+            <enum name="RobotoRegular" value="0" />
+            <enum name="RalewayLight" value="1" />
+            <enum name="arial" value="2" />
+            <enum name="arialbd" value="3" />
+        </attr>
+    </declare-styleable>
+    <style name="spinner_style">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:dropDownWidth">100dp</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerHeight">0dp</item>
+       <!-- <item name="android:popupBackground">@drawable/dnd</item>-->
+        <item name="android:dropDownHeight">70dp</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:dropDownSelector">@drawable/spinner_bg</item>
+    </style>
+</resources>

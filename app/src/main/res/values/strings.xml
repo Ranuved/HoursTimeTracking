@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Hours</string>
+    <string name="Signintobegin">Sign in to begin</string>
+    <string name="Welcome">Welcome</string>
+    <string name="START">START</string>
+    <string name="STOP">STOP</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="Login">Login</string>
+    <string name="Forgotpassword">Forgot password</string>
+    <string name="Version">Version 1.0</string>
+    <string name="no_internet">Please check your internet connection</string>
+    <string name="TRYAGAIN">TRY AGAIN</string>
+    <string name="Error">Error</string>
+    <string name="Tryagain">Try again</string>
+    <string name="Loginfailed">Login in failed</string>
+    <string name="Logout">Log out</string>
+    <string name="No">No</string>
+    <string name="Yes">Yes</string>
+    <string name="sure">Are you sure you want to logout?</string>
+    <string name="check">Please check your email and password</string>
+    <string name="WeekTotal">Week Total</string>
+    <string name="Please">Please select work type</string>
+    <string name="failedgetwork">Failed to get work type</string>
+    <string name="Useralreadyworking">User already working</string>
+    <string name="UnabletotartworkPleasetryagainlater">Unable to start work..Please try again later</string>
+    <string name="UnabletoendworkPleasetryagainlater">Unable to end work..Please try again later</string>
+    <string name="permissiondenied">permission denied</string>
+    <string name="Pleaseenteremailid">Please enter email id</string>
+    <string name="Pleaseenterpassword">Please enter password</string>
+    <string name="Invalidemail">Invalid email</string>
+    <string name="Chooseworktype">Choose work type</string>
+    <string name="M">M</string>
+    <string name="T">T</string>
+    <string name="W">W</string>
+    <string name="Th">T</string>
+    <string name="F">F</string>
+    <string name="S">S</string>
+    <string name="Sn">S</string>
+    <string name="Loading">Loading...</string>
+    <string name="enable">Enable</string>
+    <string name="cancel">Cancel</string>
+    <string name="stym">System time may be wrong\n please enable automatic date and time and Automatic Timezone</string>
+
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_Black"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:layout_width="95dp"
+                android:layout_gravity="center"
+                android:layout_height="80dp"
+                android:background="@drawable/dan" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:background="@drawable/danger" />
+        </FrameLayout>
+
+        <com.works.admin.hours_timetracking.FontTextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/stym"
+            android:textColor="@color/color_White"
+            android:textSize="16dp"
+            app:font_type="RobotoRegular" />
+
+
+        <com.works.admin.hours_timetracking.FontTextView
+            android:id="@+id/enable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/green_btn"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/enable"
+            android:textColor="@color/color_White"
+            android:textSize="18dp"
+            app:font_type="RobotoRegular" />
+
+    </RelativeLayout>
+</ScrollView>

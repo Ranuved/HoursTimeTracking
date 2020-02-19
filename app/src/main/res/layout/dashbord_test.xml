@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_Black"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/color_Black">
+
+            <com.works.admin.hours_timetracking.FontTextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:textColor="@color/color_White"
+                android:textSize="16dp"
+                app:font_type="RobotoRegular" />
+
+            <RelativeLayout
+                android:id="@+id/logout"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/logout"
+                    android:clickable="false"
+                    android:focusable="false" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/l22"
+            android:layout_below="@+id/r1"
+            android:layout_margin="1dp">
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/maply"
+                android:visibility="gone"
+                android:gravity="center"
+                android:background="#80000000"
+                android:orientation="vertical">
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="You have denied yo access your location. Please go to android setting and allow Hours App to access your location."
+                    android:textColor="@color/color_White"
+                    android:textSize="12dp" />
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:id="@+id/setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/red_btn"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="GO TO SETTING"
+                    android:textColor="@color/color_White"
+                    android:textSize="18dp"
+                    app:font_type="RobotoRegular" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/l22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/l1"
+            android:orientation="vertical">
+
+            <com.works.admin.hours_timetracking.FontTextView
+                android:id="@+id/total_week"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="Week Total: 0:00"
+                android:textColor="@color/color_White"
+                android:textSize="16dp"
+                app:font_type="RobotoRegular" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:weightSum="7">
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:id="@+id/one"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:rotation="270"
+                    android:text="0:00"
+                    android:textColor="@color/color_gray"
+                    android:textSize="15dp"
+                    app:font_type="RobotoRegular" />
+
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:id="@+id/two"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:rotation="270"
+                    android:text="0:00"
+                    android:textColor="@color/color_gray"
+                    android:textSize="15dp"
+                    app:font_type="RobotoRegular" />
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:id="@+id/three"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:rotation="270"
+                    android:text="0:00"
+                    android:textColor="@color/color_gray"
+                    android:textSize="15dp"
+                    app:font_type="RobotoRegular" />
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:id="@+id/four"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:rotation="270"
+                    android:text="0:00"
+                    android:textColor="@color/color_gray"
+                    android:textSize="15dp"
+                    app:font_type="RobotoRegular" />
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:id="@+id/five"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:rotation="270"
+                    android:text="0:00"
+                    android:textColor="@color/color_gray"
+                    android:textSize="15dp"
+                    app:font_type="RobotoRegular" />
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:id="@+id/six"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:rotation="270"
+                    android:text="0:00"
+                    android:textColor="@color/color_gray"
+                    android:textSize="15dp"
+                    app:font_type="RobotoRegular" />
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:id="@+id/seven"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:rotation="270"
+                    android:text="0:00"
+                    android:textColor="@color/color_gray"
+                    android:textSize="15dp"
+                    app:font_type="RobotoRegular" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l4"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_above="@+id/l3"
+                android:orientation="horizontal"
+                android:weightSum="7">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ProgressBar
+                        android:id="@+id/p1"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="70dp"
+                        android:layout_height="5dp"
+                        android:layout_centerInParent="true"
+                        android:progressDrawable="@drawable/custom_progressbar"
+                        android:rotation="270" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ProgressBar
+                        android:id="@+id/p2"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="70dp"
+                        android:layout_height="5dp"
+                        android:layout_centerInParent="true"
+                        android:progressDrawable="@drawable/custom_progressbar"
+                        android:rotation="270" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ProgressBar
+                        android:id="@+id/p3"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="70dp"
+                        android:layout_height="5dp"
+                        android:layout_centerInParent="true"
+                        android:progressDrawable="@drawable/custom_progressbar"
+
+                        android:rotation="270" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ProgressBar
+                        android:id="@+id/p4"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="70dp"
+                        android:layout_height="5dp"
+                        android:layout_centerInParent="true"
+                        android:progressDrawable="@drawable/custom_progressbar"
+                        android:rotation="270" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ProgressBar
+                        android:id="@+id/p5"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="70dp"
+                        android:layout_height="5dp"
+                        android:layout_centerInParent="true"
+                        android:progressDrawable="@drawable/custom_progressbar"
+                        android:rotation="270" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ProgressBar
+                        android:id="@+id/p6"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="70dp"
+                        android:layout_height="5dp"
+                        android:layout_centerInParent="true"
+                        android:progressDrawable="@drawable/custom_progressbar"
+                        android:rotation="270" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ProgressBar
+                        android:id="@+id/p7"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="70dp"
+                        android:layout_height="5dp"
+                        android:layout_centerInParent="true"
+                        android:progressDrawable="@drawable/custom_progressbar"
+                        android:rotation="270" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/l2"
+                android:layout_marginTop="-2dp"
+                android:orientation="horizontal"
+                android:weightSum="7">
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/M"
+                    android:textColor="@color/color_White"
+                    android:textSize="18dp"
+                    app:font_type="RobotoRegular" />
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/T"
+                    android:textColor="@color/color_White"
+                    android:textSize="18dp"
+                    app:font_type="RobotoRegular" />
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/W"
+                    android:textColor="@color/color_White"
+                    android:textSize="18dp"
+                    app:font_type="RobotoRegular" />
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/Th"
+                    android:textColor="@color/color_White"
+                    android:textSize="18dp"
+                    app:font_type="RobotoRegular" />
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/F"
+                    android:textColor="@color/color_White"
+                    android:textSize="18dp"
+                    app:font_type="RobotoRegular" />
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/S"
+                    android:textColor="@color/color_White"
+                    android:textSize="18dp"
+                    app:font_type="RobotoRegular" />
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/Sn"
+                    android:textColor="@color/color_White"
+                    android:textSize="18dp"
+                    app:font_type="RobotoRegular" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <com.works.admin.hours_timetracking.FontTextView
+                    android:id="@+id/type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/color_White"
+                    android:textSize="15dp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/lsp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <com.works.admin.hours_timetracking.DynamicWidthSpinner
+                        android:id="@+id/spn_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#00000000"
+                        android:drawSelectorOnTop="true"
+                        android:gravity="center"
+                        android:scrollbars="none"
+                        android:spinnerMode="dropdown"
+                        android:textAlignment="center"></com.works.admin.hours_timetracking.DynamicWidthSpinner>
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="10dp"
+                        android:layout_height="12dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:background="@drawable/arrow"
+                        android:visibility="visible" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/start"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.works.admin.hours_timetracking.FontTextView
+                android:id="@+id/timeone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="00:00"
+                android:textColor="@color/color_White"
+                android:textSize="35dp"
+                app:font_type="RobotoRegular" />
+
+            <com.works.admin.hours_timetracking.FontTextView
+                android:id="@+id/timetwo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|bottom"
+                android:gravity="center|bottom"
+                android:text="00"
+                android:textColor="@color/color_gray"
+                android:textSize="18dp"
+                app:font_type="RobotoRegular" />
+        </LinearLayout>
+
+        <com.works.admin.hours_timetracking.FontTextView
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/green_btn"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/START"
+            android:textColor="@color/color_White"
+            android:textSize="18dp"
+            app:font_type="RobotoRegular" />
+
+    </RelativeLayout>
+</ScrollView>
